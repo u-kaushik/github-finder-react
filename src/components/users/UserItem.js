@@ -22,4 +22,9 @@ const UserItem = ({ user: { avatar_url, login, html_url } }) => {
   );
 };
 
+UserItem.propTypes = {
+  userItem: PropTypes.object.isRequired,
+  // users: PropTypes.bool.isRequired,
+};
+
 export default UserItem;
